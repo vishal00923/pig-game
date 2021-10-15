@@ -182,7 +182,19 @@ main {
 }
 
 /*============================================= Media Query =====================================*/
-@media screen and (max-width: 1100px) {
+
+@media screen and (max-width: 1024px) {
+    main {
+        width: 90rem;
+        height: 72rem;
+    }
+
+    .btn-roll {
+        left: 80rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
     main {
         flex-direction: column;
         width: 45rem;
@@ -244,5 +256,40 @@ main {
     }
 }
 
-@media screen and (max-width) {
+@media screen and (max-width: 568px) {
+    main {
+        width: 25rem;
+        height: 55rem;
+    }
+
+    .player {
+        padding: 2rem;
+    }
+
+    .score {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .name {
+        font-size: 1.6rem;
+    }
+
+    .current {
+        width: 50%;
+    }
+
+    .btn-roll {
+        left: 20rem;
+    }
+
+    .dice {
+        left: 38%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    main {
+        height: 50rem;
+    }
 }
