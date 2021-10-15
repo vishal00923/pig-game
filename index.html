@@ -4,13 +4,18 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <!--============================ Favivon ===============================-->
         <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+
+        <!--============================ Main CSS ===============================-->
         <link rel="stylesheet" href="style.css" />
         <title>Pig Game</title>
     </head>
 
     <body>
         <main>
+            <!--============================ Player-0 ===============================-->
             <section class="player player-0 player-active">
                 <h2 class="name" id="name-0">Player 1</h2>
                 <p class="score" id="score-0">43</p>
@@ -20,6 +25,7 @@
                 </div>
             </section>
 
+            <!--============================ Player-1 ===============================-->
             <section class="player player-1">
                 <h2 class="name" id="name-1">Player 2</h2>
                 <p class="score" id="score-1">24</p>
@@ -29,11 +35,16 @@
                 </div>
             </section>
 
+            <!--============================ Dice ===============================-->
             <img src="img/dice-5.png" alt="Playing Dice" class="dice" />
-            <button class="btn btn-new">🔄 New game</button>
-            <button class="btn btn-roll">🎲 Roll dice</button>
-            <button class="btn btn-hold">📥 Hold</button>
+
+            <!--============================ Button ===============================-->
+            <button class="btn btn-new btn-flex">🔄 New game</button>
+            <button class="btn btn-roll btn-flex">🎲 Roll dice</button>
+            <button class="btn btn-hold btn-flex">📥 Hold</button>
         </main>
+
+        <!--============================ Main JS ===============================-->
         <script src="script.js"></script>
     </body>
 </html>
