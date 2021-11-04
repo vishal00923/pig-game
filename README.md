@@ -1,3 +1,15 @@
-# Pig-Game
-# Pig Game is a simple dice game.
-# Players take turns to roll a single dice as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.
+<<<<<<< HEAD
+
+# Created Using
+
+-   ### `html`
+-   ### `css`
+-   ### `javascript`
+
+## Pig-Game App
+
+<img src="app-preview.png" width="60%" height="60%" />
+
+## Try It
+
+https://pig-dice-game-vishal00923.netlify.app/
