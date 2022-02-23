@@ -10,4 +10,4 @@
 
 ## Try It
 
-https://lisbon-chairs-vishal00923.netlify.app/
+https://pig-dice-game-vishal00923.netlify.app
