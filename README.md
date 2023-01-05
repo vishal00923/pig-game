@@ -1,12 +1,12 @@
 # Created Using
 
--   ### `html`
--   ### `css`
--   ### `javascript`
+- ### `html`
+- ### `css`
+- ### `javascript`
 
 ## Pig-Game App
 
-<img src="app-preview.png" width="60%" height="60%" />
+<img src="https://i.ibb.co/VMpgLb9/Screenshot-2023-01-05-230117.png" alt="Screenshot-2023-01-05-230117" border="0">
 
 ## Try It
 
